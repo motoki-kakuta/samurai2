@@ -1,0 +1,95 @@
+<script type="application/ld+json" class="aioseop-schema">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.hps-net.co.jp/#organization",
+      "url": "https://www.hps-net.co.jp/",
+      "name": "株式会社HPS（Human Prowess Service）",
+      "sameAs": []
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.hps-net.co.jp/#website",
+      "url": "https://www.hps-net.co.jp/",
+      "name": "株式会社HPS（Human Prowess Service）",
+      "publisher": {
+        "@id": "https://www.hps-net.co.jp/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.hps-net.co.jp/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.hps-net.co.jp#webpage",
+      "url": "https://www.hps-net.co.jp",
+      "inLanguage": "ja",
+      "name": "株式会社HPS（Human Prowess Service）",
+      "isPartOf": {
+        "@id": "https://www.hps-net.co.jp/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://www.hps-net.co.jp#breadcrumblist"
+      },
+      "description": "株式会社HPSでは、人材派遣・有料職業紹介などのお仕事紹介をはじめ、輸送から倉庫保管・倉庫内オペレーション等の物流委託、配送に関わる全てをお任せいただける配送事業等を行っております。人材派遣・物流委託・配送業ならHPSにお任せ下さい。",
+      "about": {
+        "@id": "https://www.hps-net.co.jp/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.hps-net.co.jp#breadcrumblist",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://www.hps-net.co.jp/",
+            "url": "https://www.hps-net.co.jp/",
+            "name": "人材派遣・配送業のことなら｜株式会社HPS"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "EmploymentAgency",
+      "@id": "https://www.hps-net.co.jp/#jinzai-division",
+      "name": "株式会社HPS 人財事業本部",
+      "parentOrganization": {
+        "@id": "https://www.hps-net.co.jp/#organization"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "postalCode": "540-0008",
+        "addressRegion": "大阪府",
+        "addressLocality": "大阪市中央区",
+        "streetAddress": "大手前1-7-31 4階"
+      },
+      "telephone": "06-6809-3701",
+      "faxNumber": "06-6809-3702"
+    },
+    {
+      "@type": "EmploymentAgency",
+      "@id": "https://www.hps-net.co.jp/#haiso-division",
+      "name": "株式会社HPS 配送事業本部",
+      "parentOrganization": {
+        "@id": "https://www.hps-net.co.jp/#organization"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "postalCode": "578-0901",
+        "addressRegion": "大阪府",
+        "addressLocality": "東大阪市",
+        "streetAddress": "加納4丁目13番4号"
+      },
+      "telephone": "072-963-5522",
+      "faxNumber": "072-963-5523"
+    }
+  ]
+}
+</script>
