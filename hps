@@ -7,7 +7,9 @@
       "@id": "https://www.hps-net.co.jp/#organization",
       "url": "https://www.hps-net.co.jp/",
       "name": "株式会社HPS（Human Prowess Service）",
-      "sameAs": []
+      "sameAs":[
+　　　　　　　　　"https://www.instagram.com/hps_pr/"
+ 　　　　　　　　 ]
     },
     {
       "@type": "WebSite",
@@ -58,8 +60,8 @@
     },
     {
       "@type": "EmploymentAgency",
-      "@id": "https://www.hps-net.co.jp/#jinzai-division",
-      "name": "株式会社HPS 人財事業本部",
+      "@id": "https://www.hps-net.co.jp/#osaka-honsya",
+      "name": "株式会社HPS 大阪本社",
       "parentOrganization": {
         "@id": "https://www.hps-net.co.jp/#organization"
       },
@@ -71,12 +73,56 @@
         "streetAddress": "大手前1-7-31 4階"
       },
       "telephone": "06-6809-3701",
-      "faxNumber": "06-6809-3702"
+      "faxNumber": "06-6809-3702",
+　　　 "sameAs": [
+　　　　　　　　　　"https://maps.google.com/?cid=3428373732283756370"
+　　　　　　　　　 ],
+ "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "フォークリフトオペレーター派遣サービス",
+        "description": "【企業様へ】免許を持つ経験豊富なフォークリフトオペレーターを派遣します。【求職者様へ】フォークリフトの資格を活かせる高時給のお仕事が多数あります。ぜひご登録ください。",
+        "potentialAction": {
+          "@type": "ApplyAction",
+          "target": "https://reg18.smp.ne.jp/regist/is?SMPFORM=ljqg-lcqhnb-d8bd84c8ae9cd28afc82580a48f44a20",
+          "name": "フォークリフトのお仕事に登録する"
+        }
+      }
     },
     {
-      "@type": "EmploymentAgency",
-      "@id": "https://www.hps-net.co.jp/#haiso-division",
-      "name": "株式会社HPS 配送事業本部",
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "オフィスワーク・事務派遣サービス",
+        "description": "【企業様へ】一般事務、データ入力等、即戦力となる人材を派遣します。【求職者様へ】未経験OKのオフィスワークから専門職まで、あなたに合ったお仕事をご紹介します。",
+        "potentialAction": {
+          "@type": "ApplyAction",
+          "target": "https://reg18.smp.ne.jp/regist/is?SMPFORM=ljqg-lcqhnb-d8bd84c8ae9cd28afc82580a48f44a20",
+          "name": "オフィスワーク・事務のお仕事に登録する"
+        }
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "倉庫内・軽作業派遣サービス",
+        "description": "【企業様へ】ピッキング・梱包・検品など、様々な倉庫内作業に対応可能な人材を迅速に派遣します。【求職者様へ】すぐに始められる簡単な軽作業のお仕事が豊富です。まずはお気軽にご登録ください。",
+        "potentialAction": {
+          "@type": "ApplyAction",
+          "target": "https://reg18.smp.ne.jp/regist/is?SMPFORM=ljqg-lcqhnb-d8bd84c8ae9cd28afc82580a48f44a20",
+          "name": "倉庫内・軽作業のお仕事に登録する"
+        }
+      }
+    }
+]
+},
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://www.hps-net.co.jp/#higashiosaka-branch",
+      "name": "株式会社HPS 東大阪支店",
       "parentOrganization": {
         "@id": "https://www.hps-net.co.jp/#organization"
       },
