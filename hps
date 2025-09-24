@@ -1,141 +1,160 @@
 <script type="application/ld+json" class="aioseop-schema">
 {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://www.hps-net.co.jp/#organization",
-      "url": "https://www.hps-net.co.jp/",
-      "name": "株式会社HPS（Human Prowess Service）",
-      "sameAs":[
-　　　　　　　　　"https://www.instagram.com/hps_pr/"
- 　　　　　　　　 ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.hps-net.co.jp/#website",
-      "url": "https://www.hps-net.co.jp/",
-      "name": "株式会社HPS（Human Prowess Service）",
-      "publisher": {
-        "@id": "https://www.hps-net.co.jp/#organization"
-      },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://www.hps-net.co.jp/?s={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://www.hps-net.co.jp#webpage",
-      "url": "https://www.hps-net.co.jp",
-      "inLanguage": "ja",
-      "name": "株式会社HPS（Human Prowess Service）",
-      "isPartOf": {
-        "@id": "https://www.hps-net.co.jp/#website"
-      },
-      "breadcrumb": {
-        "@id": "https://www.hps-net.co.jp#breadcrumblist"
-      },
-      "description": "株式会社HPSでは、人材派遣・有料職業紹介などのお仕事紹介をはじめ、輸送から倉庫保管・倉庫内オペレーション等の物流委託、配送に関わる全てをお任せいただける配送事業等を行っております。人材派遣・物流委託・配送業ならHPSにお任せ下さい。",
-      "about": {
-        "@id": "https://www.hps-net.co.jp/#organization"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.hps-net.co.jp#breadcrumblist",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "item": {
-            "@type": "WebPage",
-            "@id": "https://www.hps-net.co.jp/",
-            "url": "https://www.hps-net.co.jp/",
-            "name": "人材派遣・配送業のことなら｜株式会社HPS"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "EmploymentAgency",
-      "@id": "https://www.hps-net.co.jp/#osaka-honsya",
-      "name": "株式会社HPS 大阪本社",
-      "parentOrganization": {
-        "@id": "https://www.hps-net.co.jp/#organization"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "postalCode": "540-0008",
-        "addressRegion": "大阪府",
-        "addressLocality": "大阪市中央区",
-        "streetAddress": "大手前1-7-31 4階"
-      },
-      "telephone": "06-6809-3701",
-      "faxNumber": "06-6809-3702",
-　　　 "sameAs": [
-　　　　　　　　　　"https://maps.google.com/?cid=3428373732283756370"
-　　　　　　　　　 ],
- "makesOffer": [
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "フォークリフトオペレーター派遣サービス",
-        "description": "【企業様へ】免許を持つ経験豊富なフォークリフトオペレーターを派遣します。【求職者様へ】フォークリフトの資格を活かせる高時給のお仕事が多数あります。ぜひご登録ください。",
-        "potentialAction": {
-          "@type": "ApplyAction",
-          "target": "https://reg18.smp.ne.jp/regist/is?SMPFORM=ljqg-lcqhnb-d8bd84c8ae9cd28afc82580a48f44a20",
-          "name": "フォークリフトのお仕事に登録する"
-        }
-      }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "オフィスワーク・事務派遣サービス",
-        "description": "【企業様へ】一般事務、データ入力等、即戦力となる人材を派遣します。【求職者様へ】未経験OKのオフィスワークから専門職まで、あなたに合ったお仕事をご紹介します。",
-        "potentialAction": {
-          "@type": "ApplyAction",
-          "target": "https://reg18.smp.ne.jp/regist/is?SMPFORM=ljqg-lcqhnb-d8bd84c8ae9cd28afc82580a48f44a20",
-          "name": "オフィスワーク・事務のお仕事に登録する"
-        }
-      }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "倉庫内・軽作業派遣サービス",
-        "description": "【企業様へ】ピッキング・梱包・検品など、様々な倉庫内作業に対応可能な人材を迅速に派遣します。【求職者様へ】すぐに始められる簡単な軽作業のお仕事が豊富です。まずはお気軽にご登録ください。",
-        "potentialAction": {
-          "@type": "ApplyAction",
-          "target": "https://reg18.smp.ne.jp/regist/is?SMPFORM=ljqg-lcqhnb-d8bd84c8ae9cd28afc82580a48f44a20",
-          "name": "倉庫内・軽作業のお仕事に登録する"
-        }
-      }
-    }
+"@context": "https://schema.org",
+"@graph": [
+{
+"@type": "Organization",
+"@id": "https://www.hps-net.co.jp/#organization",
+"url": "https://www.hps-net.co.jp/",
+"name": "株式会社HPS（Human Prowess Service）",
+"sameAs":[
+          "https://www.instagram.com/hps_pr/"
+         ]
+},
+{
+"@type": "WebSite",
+"@id": "https://www.hps-net.co.jp/#website",
+"url": "https://www.hps-net.co.jp/",
+"name": "株式会社HPS（Human Prowess Service）",
+"publisher": {
+"@id": "https://www.hps-net.co.jp/#organization"
+},
+"potentialAction": {
+"@type": "SearchAction",
+"target": "https://www.hps-net.co.jp/?s={search_term_string}",
+"query-input": "required name=search_term_string"
+}
+},
+{
+"@type": "WebPage",
+"@id": "https://www.hps-net.co.jp#webpage",
+"url": "https://www.hps-net.co.jp",
+"inLanguage": "ja",
+"name": "株式会社HPS（Human Prowess Service）",
+"isPartOf": {
+"@id": "https://www.hps-net.co.jp/#website"
+},
+"breadcrumb": {
+"@id": "https://www.hps-net.co.jp#breadcrumblist"
+},
+"description": "株式会社HPSでは、人材派遣・有料職業紹介などのお仕事紹介をはじめ、輸送から倉庫保管・倉庫内オペレーション等の物流委託、配送に関わる全てをお任せいただける配送事業等を行っております。人材派遣・物流委託・配送業ならHPSにお任せ下さい。",
+"about": {
+"@id": "https://www.hps-net.co.jp/#organization"
+}
+},
+{
+"@type": "BreadcrumbList",
+"@id": "https://www.hps-net.co.jp#breadcrumblist",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"item": {
+"@type": "WebPage",
+"@id": "https://www.hps-net.co.jp/",
+"url": "https://www.hps-net.co.jp/",
+"name": "人材派遣・配送業のことなら｜株式会社HPS"
+}
+}
 ]
 },
+{
+"@type": "EmploymentAgency",
+"@id": "https://www.hps-net.co.jp/#osaka-honsya",
+"name": "株式会社HPS 大阪本社",
+"parentOrganization": {
+"@id": "https://www.hps-net.co.jp/#organization"
+},
+"address": {
+"@type": "PostalAddress",
+"postalCode": "540-0008",
+"addressRegion": "大阪府",
+"addressLocality": "大阪市中央区",
+"streetAddress": "大手前1-7-31 4階"
+},
+"telephone": "06-6809-3701",
+"faxNumber": "06-6809-3702",
+"openingHours": [
     {
-      "@type": "ProfessionalService",
-      "@id": "https://www.hps-net.co.jp/#higashiosaka-branch",
-      "name": "株式会社HPS 東大阪支店",
-      "parentOrganization": {
-        "@id": "https://www.hps-net.co.jp/#organization"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "postalCode": "578-0901",
-        "addressRegion": "大阪府",
-        "addressLocality": "東大阪市",
-        "streetAddress": "加納4丁目13番4号"
-      },
-      "telephone": "072-963-5522",
-      "faxNumber": "072-963-5523"
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
     }
-  ]
+  ],
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "34.68632",
+    "longitude": "135.51245"
+  },
+"sameAs": [
+           "https://maps.google.com/?cid=3428373732283756370"
+          ],
+"makesOffer": [
+{
+"@type": "Offer",
+"itemOffered": {
+"@type": "Service",
+"name": "フォークリフトオペレーター派遣サービス",
+"description": "【企業様へ】免許を持つ経験豊富なフォークリフトオペレーターを派遣します。【求職者様へ】フォークリフトの資格を活かせる高時給のお仕事が多数あります。ぜひご登録ください。",
+"potentialAction": {
+"@type": "ApplyAction",
+"target": "https://reg18.smp.ne.jp/regist/is?SMPFORM=ljqg-lcqhnb-d8bd84c8ae9cd28afc82580a48f44a20",
+"name": "フォークリフトのお仕事に登録する"
+}
+}
+},
+{
+"@type": "Offer",
+"itemOffered": {
+"@type": "Service",
+"name": "オフィスワーク・コールセンター・事務派遣サービス",
+"description": "【企業様へ】コールセンター、一般事務、データ入力等、即戦力となる人材を派遣します。【求職者様へ】未経験OKのオフィスワークから専門職まで、あなたに合ったお仕事をご紹介します。",
+"potentialAction": {
+"@type": "ApplyAction",
+"target": "https://reg18.smp.ne.jp/regist/is?SMPFORM=ljqg-lcqhnb-d8bd84c8ae9cd28afc82580a48f44a20",
+"name": "オフィスワーク・コールセンター・事務のお仕事に登録する"
+}
+}
+},
+{
+"@type": "Offer",
+"itemOffered": {
+"@type": "Service",
+"name": "倉庫内・軽作業派遣サービス",
+"description": "【企業様へ】ピッキング・梱包・検品など、様々な倉庫内作業に対応可能な人材を迅速に派遣します。【求職者様へ】すぐに始められる簡単な軽作業のお仕事が豊富です。まずはお気軽にご登録ください。",
+"potentialAction": {
+"@type": "ApplyAction",
+"target": "https://reg18.smp.ne.jp/regist/is?SMPFORM=ljqg-lcqhnb-d8bd84c8ae9cd28afc82580a48f44a20",
+"name": "倉庫内・軽作業のお仕事に登録する"
+}
+}
+}
+]
+},
+{
+"@type": "ProfessionalService",
+"@id": "https://www.hps-net.co.jp/#higashiosaka-branch",
+"name": "株式会社HPS 東大阪支店",
+"parentOrganization": {
+"@id": "https://www.hps-net.co.jp/#organization"
+},
+"address": {
+"@type": "PostalAddress",
+"postalCode": "578-0901",
+"addressRegion": "大阪府",
+"addressLocality": "東大阪市",
+"streetAddress": "加納4丁目13番4号"
+},
+"telephone": "072-963-5522",
+"faxNumber": "072-963-5523"
+}
+]
 }
 </script>
