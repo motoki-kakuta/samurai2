@@ -74,7 +74,7 @@
 },
 "telephone": "06-6809-3701",
 "faxNumber": "06-6809-3702",
-"openingHours": [
+"openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": [
