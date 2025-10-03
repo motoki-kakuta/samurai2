@@ -1,0 +1,81 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "便利屋ゴリラ",
+  "description": "大阪市平野区・八尾市を中心に、奈良・兵庫まで関西一円、不用品回収・遺品整理・ゴミ屋敷のお片付けなど、お住まいのお困りごとをサポート。オフィス移転、エアコンクリーニング、不動産売却や解体のご相談まで。出張見積もりは無料です！",
+  "url": "https://benriyagorilla.com/",
+  "telephone": "050-1720-8877",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "長吉六反4-2-48",
+    "addressLocality": "大阪市平野区",
+    "addressRegion": "大阪府",
+    "postalCode": "547-0012",
+    "addressCountry": "JP"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "34.6069",
+    "longitude": "135.5768"
+  },
+"hasMap": "https://www.google.com/maps?cid=4194219189913441186",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "08:00",
+      "closes": "18:00"
+    }
+  ],
+"areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "大阪府"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "奈良県"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "兵庫県"
+    }
+  ],
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "不用品回収",
+        "description": "大阪市平野区・八尾市を中心に、関西一円で不用品回収を承ります。一点から家一軒丸ごとまで、迅速・丁寧に回収いたします。",
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "大阪府" },
+          { "@type": "AdministrativeArea", "name": "奈良県" },
+          { "@type": "AdministrativeArea", "name": "兵庫県" }
+        ]
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "遺品整理",
+        "description": "故人様の大切な遺品を、ご遺族様のお気持ちに寄り添いながら、丁寧に整理いたします。",
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "大阪府" },
+          { "@type": "AdministrativeArea", "name": "奈良県" },
+          { "@type": "AdministrativeArea", "name": "兵庫県" }
+        ]
+      }
+    }
+  ]
+}
