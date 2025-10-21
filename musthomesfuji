@@ -1,0 +1,86 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "@id": "https://musthomes.co.jp/fuji#organization",
+  "name": "マストホームズ静岡 富士支店",
+  "parentOrganization": {
+    "@type": "HomeAndConstructionBusiness",
+    "@id": "https://musthomes.co.jp/#organization"
+  },
+  "url": "https://musthomes.co.jp/fuji",
+  "telephone": "0120-337-796",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "長通9番地1",
+    "addressLocality": "富士市",
+    "addressRegion": "静岡県",
+    "postalCode": "416-0902",
+    "addressCountry": "JP"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "35.172427662698595",
+    "longitude": "138.64817300011094"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "富士市"
+    },
+    {
+      "@type": "City",
+      "name": "富士宮市"
+    },
+    {
+      "@type": "City",
+      "name": "沼津市"
+    }
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ],
+  "sameAs": [
+    "https://maps.google.com/?cid=5008697765160915202"
+ ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "サービス一覧",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "外壁塗装"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "屋根塗装"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "リフォーム"
+        }
+      }
+    ]
+     }
+}
+</script>
